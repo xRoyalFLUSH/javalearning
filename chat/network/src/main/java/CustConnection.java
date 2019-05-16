@@ -30,6 +30,7 @@ public class CustConnection {
                 }
             }
         });
+        readThread.setDaemon(true);
         readThread.start();
     }
 
